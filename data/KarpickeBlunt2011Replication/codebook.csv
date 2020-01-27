@@ -1,0 +1,35 @@
+Name,Variable full label,Variable description,Valid range,Scoring,Value indicating missing data,Value indicating inapplicable data,Experiment file used
+ID,Participant ID,Participant's study number/identifier,KB1 - KB52,n/a,0,NA,n/a
+netID,UVA netID,Student's UVA netID identifier,n/a,n/a,0,NA,n/a
+Date.P1,Date part 1,Date of part 1 session,00/00/00,n/a,0,NA,n/a
+Date.P2,Date part 2,Date of part 2 session (1 week later),00/00/00,n/a,0,NA,n/a
+Condition,Condition assigned,Participant's assigned study condition (block design),Retrieval OR Concept,,0,NA,n/a
+IC.1,Informed consent 1,Informed consent administered for part 1 session,0-1,n/a,0,NA,"""Karpicke & Blunt (2011) - informed consent (credit).pdf"""
+IC.2,Informed consent 2,Informed consent administered for part 2 session,0-1,n/a,0,NA,"""Karpicke & Blunt (2011) - informed consent (credit).pdf"""
+Comp.1,Compensation 1,Compensation (SONA credit) awarded for part 1 session,0-1,n/a,0,NA,0.5 SONA credit
+Comp.2,Compensation 2,Compensation (SONA credit) awarded for part 2 session,0-1,n/a,0,NA,0.5 SONA credit
+PR.1,Prediction response 1,Q1 response,0-1,"(responses: 1 = yes, 0 = no)",0,NA,"""Karpicke & Blunt (2011) - Prediction question.pdf"" (both concept-mapping condition and retrieval practice condition versions)"
+PR.2,Prediction response 2,Q2 response,0.0 - 1.0,n/a,0,NA,"""Karpicke & Blunt (2011) - Prediction question (concept-mapping condition).pdf"""
+MCS.1,Map completion score 1,Concept map completion single score ,0.0 - 1.0,(score = number of idea units mapped divided by 30 possible idea units),0,NA,"""Karpicke & Blunt (2011) - Concept map template.pdf"""
+Scorer.1,Scorer 1,First scorer for the concept map completion score ,AA - ZZ,n/a,0,NA,"""Karpicke & Blunt (2011) - Original idea units.pdf"""
+MCS.2,Map completion score 2,Concept map completion double score,0.0 - 1.0,(score = number of idea units mapped divided by 30 possible idea units),0,NA,"""Karpicke & Blunt (2011) - Concept map template.pdf"""
+Scorer.2,Scorer 2,Second scorer for the concept map completion score,AA - ZZ,n/a,0,NA,"""Karpicke & Blunt (2011) - Original idea units.pdf"""
+MCS.avg,Map completion score average,Average of the first and second scorers' concept map completion scores,0.0 - 1.0,(score = (MCS.1 + MCS.2)/2),0,NA,n/a
+R1CS.1,Retrieval #1 completion score 1,Retrieval practice #1 completion single score ,0.0 - 1.0,(score = number of idea units listed divided by 30 possible idea units),0,NA,"""Karpicke & Blunt (2011) - Retrieval practice template.pdf"""
+Scorer.1,Scorer 1,First scorer for the retrieval practice #1 completion score,AA - ZZ,n/a,0,NA,"""Karpicke & Blunt (2011) - Original idea units.pdf"""
+R1CS.2,Retrieval #1 completion score 2,Retrieval practice #1 completion double score,0.0 - 1.0,(score = number of idea units listed divided by 30 possible idea units),0,NA,"""Karpicke & Blunt (2011) - Retrieval practice template.pdf"""
+Scorer.2,Scorer 2,Second scorer for the retrieval practice #1 completion score,AA - ZZ,n/a,0,NA,"""Karpicke & Blunt (2011) - Original idea units.pdf"""
+R1CS.avg,Retrieval #1 average completion score,Average of the first and second scorers' retrieval practice #1 completion scores,0.0 - 1.0,(score = (R1CS.1 + R1CS.2)/2),0,NA,n/a
+R2CS.1,Retrieval #2 completion score 1,Retrieval practice #2 completion single score (completed on separate retrieval template than R1CS),0.0 - 1.0 ,(score = number of idea units listed divided by 30 possible idea units),0,NA,"""Karpicke & Blunt (2011) - Retrieval practice template.pdf"""
+Scorer.1,Scorer 1,First scorer for the retrieval practice #2 completion score,AA - ZZ,n/a,0,NA,"""Karpicke & Blunt (2011) - Original idea units.pdf"""
+R2CS.2,Retrieval #2 completion score 2,Retrieval practice #2 completion double score,0.0 - 1.0,(score = number of idea units listed divided by 30 possible idea units),0,NA,"""Karpicke & Blunt (2011) - Retrieval practice template.pdf"""
+Scorer.2,Scorer 2,Second scorer for the retrieval practice #2 completion score,AA - ZZ,n/a,0,NA,"""Karpicke & Blunt (2011) - Original idea units.pdf"""
+R2CS.avg,Retrieval #2 average completion score,Average of the first and second scorers' retrieval practice #2 completion scores,0.0 - 1.0,(score = (R2CS.1 + R2CS.2)/2),0,NA,n/a
+TS.1,Test score 1,Follow-up learning test single score,0.0 - 1.0,(score = number of earned points/25 possible points),0,NA,"""Karpicke & Blunt (2011) - Original learning test (sea otters)).pdf"""
+Scorer.1,Scorer 1,First scorer of the follow-up learning test ,AA - ZZ,n/a,0,NA,"""Karpicke & Blunt (2011) - Original learning test (sea otters) KEY.pdf"""
+TS.2,Test score 2,Follow-up learning test double score,0.0 - 1.0,(score = number of earned points/25 possible points),0,NA,"""Karpicke & Blunt (2011) - Original learning test (sea otters)).pdf"""
+Scorer.2,Scorer 2,Second scorer of the follow-up learning test,AA - ZZ,n/a,0,NA,"""Karpicke & Blunt (2011) - Original learning test (sea otters) KEY.pdf"""
+TS.avg,Test score average,Average of the first and second scorers' test scores,0.0 - 1.0,(score = (TS.1 + TS.2)/2),0,NA,n/a
+Exc.1,Exclusion part 1,Exclusions for part 1 session,0-1,"1 = exclusion, 0 = no exclusion",0,NA,n/a
+Exc.2,Exclusion part 2,Exclusions for part 2 session,0-1,"1 = exclusion, 0 = no exclusion",0,NA,n/a
+Collection,Collection round,Round of SSRP collection (1st round (90% confidence to predict 75% of the original effect size) or 2nd (90% confidence to predict 50% of the original effect size)),1-2,n/a,0,NA,n/a
