@@ -7,17 +7,33 @@
   <body>
     <div class="container">
       <h1>Baby Names Data Set</h1>
-      
-      <p>The following data comes from a <a href="https://www.ssa.gov/oact/babynames/limits.html">data set of baby names</a>
-	maintained by the Social Security Administration. Each file
-	below contains information about the names and genders of all
-	babies born in the United States in a particular year. All
-	files in this directory follow the naming convention <code>yobYYYY.txt</code>,
-	where <code>YYYY</code> is a four-digit year from 1880 to 2018.
+
+      <p>The following data comes from
+      a <a href="https://www.ssa.gov/oact/babynames/limits.html">data
+	  set of baby names</a>. The information below is copied from
+	the ReadMe file for this data set.
       </p>
 
-      <p>For example, the names of babies born in 1995 can be found in
-      the file <a href="https://dlsun.github.io/pods/data/names/yob1995.txt">https://dlsun.github.io/pods/data/names/yob1995.txt</a>.
+      <blockquote class="blockquote">
+	<p>
+	For each year of birth YYYY after 1879, we created a
+	comma-delimited file called yobYYYY.txt.
+	Each record in the individual annual files has the format
+	"name,sex,number," where name is 2 to 15 characters, sex is M
+	(male) or F (female) and "number" is the number of occurrences
+	of the name. Each file is sorted first on sex and then on
+	number of occurrences in descending order. When there is a tie
+	on the number of occurrences, names are listed in alphabetical
+	order. This sorting makes it easy to determine a name's
+	rank. The first record for each sex has rank 1, the second
+	record for each sex has rank 2, and so forth.
+	</p>
+	
+	<p>To safeguard privacy, we restrict our list of names to those with at least 5 occurrences.</p>	
+      </blockquote>
+      
+      <p>For example, the names of babies born in 2000 can be found in
+	the file <a href="https://dlsun.github.io/pods/data/names/yob2000.txt">https://dlsun.github.io/pods/data/names/yob2000.txt</a>.
       </p>
     </div>
   </body>
